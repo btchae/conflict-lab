@@ -5,4 +5,8 @@ router.get('/', function(req,res){
 	res.send('root')
 });
 
+router.get('/joe', function(req,res){
+	res.send('joe');
+});
+
 module.exports = router;
